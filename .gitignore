@@ -1,0 +1,16 @@
+# Configuration files
+config.json
+*.local.sh
+
+# Generated files
+settings.local.sh
+.version
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Backup files
+*.bak

@@ -1,0 +1,16 @@
+{
+  "ssh": {
+    "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAAB... example@host.com"
+  },
+  "syslog": {
+    "server": "10.0.0.10",
+    "port": "1514"
+  },
+  "gotify": {
+    "url": "http://gotify.example.com",
+    "token": "AGotifyApplicationToken123"
+  },
+  "packages": {
+    "additional": ["vim", "htop"]
+  }
+} 
