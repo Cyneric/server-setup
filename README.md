@@ -64,14 +64,14 @@ A comprehensive automation toolkit for standardizing Linux server configurations
 
 Simply run:
 ```bash
-curl -sSL https://raw.githubusercontent.com/Cyneric/shellscripts/main/bootstrap.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/Cyneric/server-setup/main/bootstrap.sh | sudo bash
 ```
 
 ### Option 2: Installation with Configuration File
 
 1. Create your config.json file:
 ```bash
-curl -O https://raw.githubusercontent.com/Cyneric/shellscripts/main/config.example.json
+curl -O https://raw.githubusercontent.com/Cyneric/server-setup/main/config.example.json
 mv config.example.json config.json
 ```
 
@@ -99,7 +99,7 @@ Example configuration:
 
 3. Run the installation with your config file:
 ```bash
-curl -sSL https://raw.githubusercontent.com/Cyneric/shellscripts/main/bootstrap.sh | sudo bash -s -- config.json
+curl -sSL https://raw.githubusercontent.com/Cyneric/server-setup/main/bootstrap.sh | sudo bash -s -- config.json
 ```
 
 ### Option 3: Installation with GitHub Credentials
@@ -125,7 +125,7 @@ This method allows you to securely store your credentials in GitHub Secrets and 
 
 3. Run the installation:
 ```bash
-curl -sSL https://raw.githubusercontent.com/Cyneric/shellscripts/main/bootstrap.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/Cyneric/server-setup/main/bootstrap.sh | sudo bash
 ```
 
 4. When prompted:
@@ -151,7 +151,7 @@ You have several options to configure your credentials:
    - Create and edit config.json manually
    - Useful for repeatable deployments
    ```bash
-   curl -O https://raw.githubusercontent.com/Cyneric/shellscripts/main/config.example.json
+   curl -O https://raw.githubusercontent.com/Cyneric/server-setup/main/config.example.json
    mv config.example.json config.json
    nano config.json
    ```
@@ -245,7 +245,7 @@ After installation:
 
 To update an existing installation, simply run the bootstrap script again:
 ```bash
-curl -sSL https://raw.githubusercontent.com/Cyneric/shellscripts/main/bootstrap.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/Cyneric/server-setup/main/bootstrap.sh | sudo bash
 ```
 
 The script will:
