@@ -337,3 +337,4 @@ Christian Blank (christianblank91@gmail.com)
 ## Support
 
 For issues and feature requests, please create an issue in the GitHub repository.
+
